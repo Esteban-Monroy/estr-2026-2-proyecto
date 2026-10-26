@@ -22,8 +22,8 @@ su nota del proyecto es 0.0.
 
 **Escenario escogido:** A — Inventario de una tienda
 
-- Estructura escrita desde cero:
-- Estructura de la biblioteca contra la que se compara:
+- Estructura escrita desde cero: lista enlazada simple con búsqueda lineal por código (avance) y tabla hash con encadenamiento y clave entera, donde cada cubeta es la lista del avance (final).
+- Estructura de la biblioteca contra la que se compara: `std::map`.
 
 ## Lo primero
 
