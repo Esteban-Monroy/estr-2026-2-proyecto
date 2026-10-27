@@ -13,6 +13,12 @@ hizo y qué quedó pendiente. La entrada más reciente va arriba.
 
 ## 2026-10-27
 
+- Quiénes: Jesús Esteban Monroy
+- Qué hicimos: revise lo de Alejandro (Articulo), resolví el conflicto de la bitácora y lo integre a main  creé la interfaz abstracta `Inventario` en `codigo/Inventario.h` con los métodos virtuales puros.
+- Qué quedó pendiente: crear `codigo/ListaArticulos.h` e implementar sus métodos en `codigo/ListaArticulos.cpp`.
+ 
+## 2026-10-27
+
 - Quiénes: Alejandro Serna Tovar, Jesús Esteban Monroy
 - Qué hicimos: Revisión y refactorización de `codigo/Articulo.h` y `codigo/Articulo.cpp`. Se aplicaron reglas de estilo de la Clase 15: control de precondiciones con `assert`, eliminación de contenedores STL, manejo seguro de cadenas de C (`strncpy` cerrando con `'\0'`) y corrección de namespaces (`using std::strncpy`).
 - Qué quedó pendiente: Crear la interfaz base `Inventario.h` e iniciar la definición de `ListaArticulos.h`.
