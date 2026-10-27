@@ -6,6 +6,7 @@
 #ifndef ARTICULO_H
 #define ARTICULO_H
 
+// Tamano del arreglo del nombre: 63 caracteres utiles mas el '\0'.
 const int MAX_NOMBRE = 64;
 
 struct Articulo {
