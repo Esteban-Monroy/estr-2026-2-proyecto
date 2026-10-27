@@ -11,29 +11,36 @@ hizo y qué quedó pendiente. La entrada más reciente va arriba.
 - Qué hicimos:
 - Qué quedó pendiente:
 
+## 2026-10-27
+- Quiénes: Alejandro Serna Tovar
+- Qué hicimos: Creación del archivo `codigo/ListaArticulos.h`. Se definió la estructura interna de la lista simplemente enlazada (el `Nodo`, el puntero `cabeza` y el contador `n`) y se declararon las firmas de los métodos de la interfaz `Inventario`. También se bloqueó la copia de listas (`= delete`) para proteger la memoria.
+- Qué quedó pendiente: Implementar la lógica de estos métodos en el archivo `codigo/ListaArticulos.cpp`.
 
 
+## 2026-10-27
+- Quiénes: Jesús Esteban Monroy
+- Qué hicimos: revise lo de Alejandro (Articulo), resolví el conflicto de la bitácora y lo integre a main  creé la interfaz abstracta `Inventario` en `codigo/Inventario.h` con los métodos virtuales puros.
+- Qué quedó pendiente: crear `codigo/ListaArticulos.h` e implementar sus métodos en `codigo/ListaArticulos.cpp`.
+ 
 ## 2026-10-27
 - Quiénes: Alejandro Serna Tovar, Jesús Esteban Monroy
 - Qué hicimos: Revisión y refactorización de `codigo/Articulo.h` y `codigo/Articulo.cpp`. Se aplicaron reglas de estilo de la Clase 15: control de precondiciones con `assert`, eliminación de contenedores STL, manejo seguro de cadenas de C (`strncpy` cerrando con `'\0'`) y corrección de namespaces (`using std::strncpy`).
 - Qué quedó pendiente: Crear la interfaz base `Inventario.h` e iniciar la definición de `ListaArticulos.h`.
 
-
 ## 2026-10-26
+
 - Quiénes: Alejandro Serna Tovar
 - Qué hicimos: Creación e implementación básica del struct `Articulo` (`codigo/Articulo.h` y `codigo/Articulo.cpp`) con sus atributos (`codigo`, `nombre`, `cantidad`) y sus constructores.
 - Qué quedó pendiente: Crear la interfaz base `Inventario.h` y definir la cabecera `ListaArticulos.h`.
 
-
 ## 2026-10-26
+
 - Quiénes: Jesús Esteban Monroy
 - Qué hicimos: completé en el README las estructuras del escenario A (lista enlazada simple, tabla hash con encadenamiento y std::map) con el PR #3.
 - Qué quedó pendiente: subir Fabrica, main.cpp y Makefile; casos de prueba; informe de avance.
 
-
 ## 2026-10-16
+
 - Quiénes: Jesús Esteban Monroy
 - Qué hicimos: fork del repositorio base; invitación a Alejandro Serna y Juan Guzmán como colaboradores; README con la tabla de integrantes y el escenario A.
-- Qué quedó pendiente: montar el entorno ; definir la interfaz de `InventarioLista`; repartir tareas en el grupo.
-
-
+- Qué quedó pendiente: montar el entorno; definir la interfaz de `InventarioLista`; repartir tareas en el grupo.
