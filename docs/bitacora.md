@@ -12,6 +12,7 @@ hizo y qué quedó pendiente. La entrada más reciente va arriba.
 - Qué quedó pendiente:
 
 
+
 ## 2026-10-27
 - Quiénes: Alejandro Serna Tovar, Jesús Esteban Monroy
 - Qué hicimos: Revisión y refactorización de `codigo/Articulo.h` y `codigo/Articulo.cpp`. Se aplicaron reglas de estilo de la Clase 15: control de precondiciones con `assert`, eliminación de contenedores STL, manejo seguro de cadenas de C (`strncpy` cerrando con `'\0'`) y corrección de namespaces (`using std::strncpy`).
