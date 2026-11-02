@@ -11,11 +11,15 @@ hizo y qué quedó pendiente. La entrada más reciente va arriba.
 - Qué hicimos:
 - Qué quedó pendiente:
 
-### Sesión - 2 de noviembre de 2026
-**Autor:** Alejandro Serna Tovar 
-- **Implementación de ListaArticulos.cpp:** Se finalizó la implementación de la lista enlazada simple para el inventario. Se utilizó inserción al inicio ($O(1)$) respetando la interfaz de `ListaArticulos.h` sin requerir el puntero `cola`.
-- **Cumplimiento de restricciones:** Se aplicaron las reglas del proyecto: único punto de retorno por función, iteración exclusiva mediante ciclos `while`, uso de `NULL` y gestión manual de punteros y contadores.
-- **Integración y compilación:** Se realizó el *merge* de los avances de la rama principal (`Fabrica`, `Makefile` y `principal.cpp`) y se verificó la compilación limpia de todo el proyecto sin advertencias ni errores.
+
+## 2026-11-02
+- Quiénes: Alejandro Serna Tovar
+- Qué hicimos: 
+  - Se finalizó la implementación de `ListaArticulos.cpp` usando una lista enlazada simple con inserción al inicio ($O(1)$) sin utilizar el puntero `cola`.
+  - Se cumplieron las restricciones del curso: único punto de retorno por función, iteración exclusiva mediante ciclos `while`, manejo de punteros con `NULL` y gestión manual de memoria y contadores.
+  - Se realizó la integración (*merge*) con los cambios de la rama principal (`Fabrica`, `Makefile` y `principal.cpp`) y se verificó la compilación limpia del proyecto sin errores ni advertencias.
+- Qué quedó pendiente: 
+  - Revisión del Pull Request y *merge* final a la rama `main` por parte de Esteban Monroy.
 
 
 ## 2026-11-02
