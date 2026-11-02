@@ -11,6 +11,11 @@ hizo y qué quedó pendiente. La entrada más reciente va arriba.
 - Qué hicimos:
 - Qué quedó pendiente:
 
+## 2026-11-02
+
+- Quiénes: Jesús Esteban Monroy
+- Qué hicimos: casos de prueba en `datos/` (3 funcionales y 4 límite) e informe de avance completo; revisión e integración de los PR #8, #9 y #10.
+- Qué quedó pendiente: verificar `make pruebas` en `main` y empezar la tabla hash para la entrega final
 
 ## 2026-11-02
 - Quiénes: Alejandro Serna Tovar
